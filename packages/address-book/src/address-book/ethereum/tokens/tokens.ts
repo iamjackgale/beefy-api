@@ -3032,4 +3032,18 @@ export const tokens = {
     bridge: 'native',
     tags: ['NO_TIMELOCK', 'STABLECOIN', 'SYNTHETIC'],
   },
+  AUSD: {
+    name: 'AUSD',
+    symbol: 'AUSD',
+    oracleId: 'ethAUSD',
+    address: '0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a',
+    chainId: 1,
+    decimals: 6,
+    website: 'https://agora.finance/',
+    documentation: 'https://developer.agora.finance/',
+    description:
+      'AUSD is backed 100% by Agora’s Reserves. The Agora Reserve Fund is composed of cash, overnight repurchase and reverse repurchase agreements, and short-term U.S. Treasury securities.',
+    bridge: 'native',
+    tags: ['NO_TIMELOCK', 'STABLECOIN'],
+  },
 } as const satisfies Record<string, Token>;
