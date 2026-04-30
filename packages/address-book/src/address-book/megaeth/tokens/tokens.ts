@@ -27,10 +27,11 @@ export const tokens = {
     chainId: 4326,
     decimals: 18,
     website: 'https://www.megaeth.com/',
+    documentation: 'https://docs.megaeth.com/',
     description:
       'MEGA is the native token powering the MegaETH protocol. MegaETH democratizes what no other chain has: guaranteed low-latency access to a real-time blockchain. MEGA is used by traders to pay for proximity to the sequencer. Rewards earned by the MegaETH Foundation on the native stablecoin USDm are used to buyback MEGA.',
     bridge: 'native',
-    tags: ['BLUECHIP', 'NO_TIMELOCK'],
+    tags: ['NO_TIMELOCK'],
   },
   USDm: {
     name: 'MegaUSD',
