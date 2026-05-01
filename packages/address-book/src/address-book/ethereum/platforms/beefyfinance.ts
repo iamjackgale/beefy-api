@@ -34,7 +34,7 @@ export const beefyfinance = {
 
   /// CLM Contracts
   clmFactory: '0xB9D2c15cE96440A8281adcbaf36BBFc7787e2889',
-  clmStrategyFactory: '0xc77e63Dac916900eE844500Bdb1AF71cfa286968',
+  clmStrategyFactory: '0x10F668cA075266Fd4Cfa73b3c8B4081b3937C71A',
   clmRewardPoolFactory: '0x425f9dF731B5325B1AC51189ee043d2576404405',
   positionMulticall: '0xcC7dC8c2245C5e024f1caE20d25d71335F84b3AD',
 
