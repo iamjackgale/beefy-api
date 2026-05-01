@@ -1,5 +1,23 @@
 [
   {
+    "name": "curve-ynrwax-usdc",
+    "pool": "0xf05bc5c38a8f5e3d98c72f11bc59e713f8a32228",
+    "gauge": "0xc98179648625316a8e1763e58256d31f517ea02a",
+    "stakeDao": true,
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "ynRWAx",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "USDC",
+        "decimals": "1e6"
+      }
+    ]
+  },
+  {
     "name": "curve-musd-2pool",
     "pool": "0xb5571e76693ba60110b5811dd650ffefce1c955f",
     "gauge": "0x7d6b0d7e8f5e78c0890f9e512ed70f57fd225cac",
