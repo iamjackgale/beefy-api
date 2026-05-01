@@ -1,5 +1,14 @@
 [
   {
+    "name": "morpho-v2-ethereum-steakhouse-prime-instant-pyusd",
+    "address": "0xbeef00B5d83C1188F07A5184230a805639c39f04",
+    "oracle": "tokens",
+    "oracleId": "PYUSD",
+    "decimals": "1e6",
+    "v2": true,
+    "skim": true
+  },
+  {
     "name": "morpho-v2-ethereum-steakhouse-high-yield-usdt",
     "address": "0xbeeff07d991C04CD640DE9F15C08ba59c4FEDEb7",
     "oracle": "tokens",
@@ -14,15 +23,6 @@
     "oracle": "tokens",
     "oracleId": "ethAUSD",
     "decimals": "1e6",
-    "v2": true,
-    "skim": true
-  },
-  {
-    "name": "morpho-v2-ethereum-steakhouse-prime-frxusd",
-    "address": "0xbeef009FF4FB1727297BF2526806F4A73E4b99aD",
-    "oracle": "tokens",
-    "oracleId": "frxUSD",
-    "decimals": "1e18",
     "v2": true,
     "skim": true
   },
