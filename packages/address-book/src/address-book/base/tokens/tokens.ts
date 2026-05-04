@@ -3532,4 +3532,17 @@ export const tokens = {
     documentation: 'https://docs.frax.finance/',
     tags: ['STABLECOIN', 'SYNTHETIC'],
   },
+  cbMEGA: {
+    name: 'Coinbase Wrapped MEGA',
+    symbol: 'cbMEGA',
+    oracleId: 'cbMEGA',
+    address: '0xcb111E6A2a3bde90856D299d61341ac302167D23',
+    chainId: 8453,
+    decimals: 18,
+    website: 'https://www.megaeth.com/',
+    documentation: 'https://docs.megaeth.com/',
+    description: 'Coinbase Wrapped MEGA (cbMEGA) is backed 1:1 with MEGA, custodied with Coinbase.',
+    bridge: 'native',
+    tags: ['NO_TIMELOCK'],
+  },
 } as const satisfies Record<string, Token>;

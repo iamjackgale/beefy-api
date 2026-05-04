@@ -1068,6 +1068,14 @@ const tokens: Partial<Record<keyof typeof ChainId, ConcentratedLiquidityToken[]>
       firstToken: 'USDC',
       secondToken: 'CHIP',
     },
+    {
+      type: 'Slipstream',
+      oracleId: 'cbMEGA',
+      decimalDelta: 1e-12,
+      pool: '0x0150e3d89e161518c044ad191c4bdf6b40df6e83',
+      firstToken: 'cbMEGA',
+      secondToken: 'USDC',
+    },
   ],
   zksync: [
     {
