@@ -1,5 +1,41 @@
 [
   {
+    "name": "morpho-v2-ethereum-steakhouse-prime-instant-pyusd",
+    "address": "0xbeef00B5d83C1188F07A5184230a805639c39f04",
+    "oracle": "tokens",
+    "oracleId": "PYUSD",
+    "decimals": "1e6",
+    "v2": true,
+    "skim": true
+  },
+  {
+    "name": "morpho-v2-ethereum-steakhouse-high-yield-usdt",
+    "address": "0xbeeff07d991C04CD640DE9F15C08ba59c4FEDEb7",
+    "oracle": "tokens",
+    "oracleId": "USDT",
+    "decimals": "1e6",
+    "v2": true,
+    "skim": true
+  },
+  {
+    "name": "morpho-v2-ethereum-steakhouse-high-yield-instant-ausd",
+    "address": "0xbEeFf89ABb7815cCD5182BD1FF82C4a4F8FCb13D",
+    "oracle": "tokens",
+    "oracleId": "ethAUSD",
+    "decimals": "1e6",
+    "v2": true,
+    "skim": true
+  },
+  {
+    "name": "morpho-v2-ethereum-steakhouse-high-yield-usdc",
+    "address": "0xbeeff2C5bF38f90e3482a8b19F12E5a6D2FCa757",
+    "oracle": "tokens",
+    "oracleId": "USDC",
+    "decimals": "1e6",
+    "v2": true,
+    "skim": true
+  },
+  {
     "name": "morpho-eth-sentora-pyusd",
     "address": "0xb576765fB15505433aF24FEe2c0325895C559FB2",
     "oracle": "tokens",
