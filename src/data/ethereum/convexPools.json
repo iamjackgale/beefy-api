@@ -1,5 +1,23 @@
 [
   {
+    "name": "curve-frxusd-sdola",
+    "pool": "0x9d8afd5ce19a3b948049468188f1de13951a4383",
+    "gauge": "0xbd6d1a33a6fa37379ecc89b6cff7c7d7f8c305ec",
+    "stakeDao": true,
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "frxUSD",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "sDOLA",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
     "name": "curve-ynrwax-usdc",
     "pool": "0xf05bc5c38a8f5e3d98c72f11bc59e713f8a32228",
     "gauge": "0xc98179648625316a8e1763e58256d31f517ea02a",
