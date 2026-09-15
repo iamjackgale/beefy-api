@@ -2397,6 +2397,22 @@ const tokens = {
     },
     {
       type: 'UniV3',
+      oracleId: 'rhRAM',
+      decimalDelta: 1,
+      pool: '0x5860dD468B4FC1740EaF80a3b7F22e78D70a076a',
+      firstToken: 'rhRAM',
+      secondToken: 'WETH',
+    },
+    {
+      type: 'UniV3',
+      oracleId: 'microduck',
+      decimalDelta: 1e-12,
+      pool: '0xa7b68ce0cF9Eb5A3d3880D3a4853aa4C77DB2567',
+      firstToken: 'microduck',
+      secondToken: 'USDG',
+    },
+    {
+      type: 'UniV3',
       oracleId: 'PAIR',
       decimalDelta: 1,
       pool: '0xC54C8bA6439AB4f5fb734779f83d00185b1cA4EE',
