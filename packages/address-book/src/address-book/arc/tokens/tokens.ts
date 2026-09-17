@@ -10,12 +10,13 @@ const USDC = {
   website: 'https://www.circle.com/usdc',
   description:
     'USDC is a fully collateralized US dollar stablecoin. USDC is issued by regulated financial institutions, backed by fully reserved assets, redeemable on a 1:1 basis for US dollars.',
-  bridge: 'arc-canonical',
+  bridge: 'native',
   documentation: 'https://developers.circle.com/docs',
   tags: ['STABLECOIN'],
 } as const satisfies Token;
 
 export const tokens = {
+  // No wrapper on arc: 0x3600 is the 6-decimal ERC-20 view of the 18-decimal native balance (no deposit/withdraw)
   WNATIVE: USDC,
   FEES: USDC,
   USDC,
