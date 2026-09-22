@@ -2468,7 +2468,7 @@ const tokens = {
       pool: '0x6fd5F2fb831940DcD61A98c5B3aCB7D8C6f3bFc1',
       firstToken: 'arcEURC',
       secondToken: 'USDC',
-    },
+    }
   ],
 } satisfies Partial<Record<keyof typeof ChainId, ConcentratedLiquidityToken[]>>;
 
