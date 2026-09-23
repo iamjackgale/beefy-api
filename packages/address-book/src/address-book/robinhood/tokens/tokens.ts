@@ -722,19 +722,19 @@ export const tokens = {
     bridge: 'native',
     tags: ['STOCK'],
   },
-  LUTE: {
-    name: 'Alandale',
-    symbol: 'LUTE',
-    oracleId: 'LUTE',
-    address: '0xD1e861CC5Eee7eA88649206b74504D78CCD7AEeA',
+  GOOGLrh: {
+    name: 'Alphabet Class A • Robinhood Token',
+    symbol: 'GOOGL',
+    oracleId: 'GOOGLrh',
+    address: '0x2e0847E8910a9732eB3fb1bb4b70a580ADAD4FE3',
     chainId: 4663,
     decimals: 18,
-    website: 'https://app.alandale.xyz/',
+    website: 'https://robinhood.com/rhj/stocktokens/',
     description:
-      'LUTE is the liquid ERC-20 emission and governance token of Alandale MetaDEX. When locked into veLUTE, it allows users to direct emissions on Alandale and receive trading fees and bribes in exchange.',
-    documentation: 'https://alandale.gitbook.io/alandale',
+      'Alphabet Class A • Robinhood Token is a tokenized debt security issued by Robinhood Assets (Jersey) Limited that provides price exposure to Alphabet Class A shares without conferring ownership or shareholder rights.',
+    documentation: 'https://docs.robinhood.com/chain/stock-tokens/',
     bridge: 'native',
-    tags: ['NO_TIMELOCK'],
+    tags: ['STOCK'],
   },
   PAIR: {
     name: 'PAIR',
@@ -805,5 +805,19 @@ export const tokens = {
     documentation: 'docs.netnet.capital',
     bridge: 'native',
     tags: ['NO_AUDIT', 'NO_TIMELOCK', 'MEMECOIN'],
+  },
+  LUTE: {
+    name: 'Alandale',
+    symbol: 'LUTE',
+    oracleId: 'LUTE',
+    address: '0xD1e861CC5Eee7eA88649206b74504D78CCD7AEeA',
+    chainId: 4663,
+    decimals: 18,
+    website: 'https://app.alandale.xyz/',
+    description:
+      'LUTE is the liquid ERC-20 emission and governance token of Alandale MetaDEX. When locked into veLUTE, it allows users to direct emissions on Alandale and receive trading fees and bribes in exchange.',
+    documentation: 'https://alandale.gitbook.io/alandale',
+    bridge: 'native',
+    tags: ['NO_TIMELOCK'],
   },
 } as const satisfies Record<string, Token>;
